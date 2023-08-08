@@ -1,0 +1,2 @@
+primary colro : #4caf50;
+background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
