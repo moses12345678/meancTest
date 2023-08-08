@@ -1,2 +1,32 @@
-primary colro : #4caf50;
-background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+React Native Authentication App
+Create a React Native application featuring login, registration screens, and a simple home page to verify user authentication.
+
+Features
+User login and registration screens
+Simple home page to confirm authentication
+Primary color: #4caf50
+Background image: Cubes Pattern
+API Endpoints
+Login
+API: https://meanc4.azurewebsites.net/meanc/login/
+
+Method: POST
+
+Send a POST request with user email and password.
+If the token received in the response is correct, the user is successfully authenticated.
+Registration
+API: https://meanc4.azurewebsites.net/meanc/users/
+
+Method: POST
+
+Send a POST request with user email and password.
+The API will create a token in the database for the new user.
+After successful registration, users can log in using their credentials.
+Primary Color
+The primary color used throughout the app is #4caf50.
+
+Background Image
+The background of the app features a textured pattern obtained from Cubes Pattern.
+
+Unit Tests
+The application includes unit tests to ensure its functionality and components are working as expected.
